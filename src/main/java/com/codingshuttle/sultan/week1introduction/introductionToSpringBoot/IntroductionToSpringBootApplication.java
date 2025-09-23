@@ -8,13 +8,7 @@ public class IntroductionToSpringBootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
-        //Xyz
-        //hello
-
-
-        System.out.println("I am Sultan");
-        System.out.println("JAVA DEVELOPER");
-        System.out.println("I am from Patna");
+        
 	}
 
 }
