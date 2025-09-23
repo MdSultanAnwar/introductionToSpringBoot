@@ -10,8 +10,8 @@ public class IntroductionToSpringBootApplication {
 		SpringApplication.run(IntroductionToSpringBootApplication.class, args);
         //Xyz
         //hello
-        //h
-        //hhh
+
+
         System.out.println("I am Sultan");
         System.out.println("JAVA DEVELOPER");
         System.out.println("I am from Patna");
