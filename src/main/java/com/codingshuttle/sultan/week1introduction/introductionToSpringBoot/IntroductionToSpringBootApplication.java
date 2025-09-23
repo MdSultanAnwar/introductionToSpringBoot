@@ -12,6 +12,7 @@ public class IntroductionToSpringBootApplication {
         //hello
         //h
         System.out.println("I am Sultan");
+        System.out.println("JAVA DEVELOPER");
 	}
 
 }
