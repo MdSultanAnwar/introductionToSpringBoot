@@ -1,8 +1,12 @@
 package com.codingshuttle.sultan.week1introduction.introductionToSpringBoot;
 
-public class DevDB {
 
-    String getData(){
+import org.springframework.stereotype.Component;
+
+@Component
+public class DevDB implements DB {
+
+    public String getData(){
         return "Dev Data";
     }
 }

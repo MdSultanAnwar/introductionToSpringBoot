@@ -14,16 +14,20 @@ public class IntroductionToSpringBootApplication implements CommandLineRunner {
     @Autowired
     Apple apple2;
 
+    @Autowired
+    DBService dbService;
+
     public static void main(String[] args) {
         SpringApplication.run(IntroductionToSpringBootApplication.class, args);
     }
 
     @Override
     public void run(String... args)  throws Exception{
-        apple1.eatApple();
-        apple2.eatApple();
-
-        System.out.println(apple1.hashCode());
-        System.out.println(apple2.hashCode());
+        System.out.println(dbService.getData());
+//        apple1.eatApple();
+//        apple2.eatApple();
+//
+//        System.out.println(apple1.hashCode());
+//        System.out.println(apple2.hashCode());
     }
 }
